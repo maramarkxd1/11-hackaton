@@ -1,0 +1,110 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    display: flex;
+    padding: 0 auto;
+}
+
+.header__item {
+    font-size: 3em;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main {
+    width: 100%;
+    height: calc(100vh - 109px);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 4em;
+    background-color: skyblue;
+}
+.tittle {
+    width: 100%;
+    text-align: center;
+}
+
+.padre{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 4em;
+}
+img {
+    width: 100%;
+    height: 300px;
+}
+.precio {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2em;
+}
+.btn {
+    text-align: center;
+}
+.Agregar {
+    padding: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+}
+.Agregar:hover {
+    background-color: rgb(169, 221, 241);
+    color: rgb(177, 177, 177);
+}
+.header__btn {
+    text-align: center;
+}
+.borrar {
+    padding: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+    background-color: rgb(147, 207, 231);
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+}
+.borrar:hover {
+    background-color: rgb(169, 221, 241);
+    color: rgb(177, 177, 177);
+}
+.tabla {
+    width: 500px;
+    background-color: white;
+}
+.item {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+.item__img {
+    width: 70px;
+    height: 40px;
+}
+.item__btnn {
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    background-color: red;
+}
